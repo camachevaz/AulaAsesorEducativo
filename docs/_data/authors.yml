@@ -10,14 +10,14 @@
 #   email: someone@something.com //--> optional
 
 -
-  id: someone
-  name: Some Person
+  id: carlos
+  name: Carlos Chee
   avatar: /profile-pic.jpg
   bio: this is some more information about the author.
   facebook: https://www.facebook.com/someone
   twitter: https://twitter.com/someone
   instagram: http://instagram.com/someone
-  email: someone@something.com
+  email: hola@asesoreducativo.mx
 -
   id: person
   avatar: /profile-pic.jpg
