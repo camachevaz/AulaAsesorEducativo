@@ -1,18 +1,8 @@
-![gridster preview](/img/gridster_preview.jpg)
+## Introduction
+This template utilizes Jekyll, an open source static website generator, as well as a theme based largely off of the Minimal Mistakes theme by Michael Rose. The purpose of this template is to provide you with a simple, well designed website that is optimized for hosting on Github pages. We aim to reduce the technological know-how and time that is usually required for maintaining a personal or professional website.
 
-## Multimedia
-If we had to choose one word to describe Gridster that would be it. Gridster is a theme that focusses on multimedia. It contains different post types to create video posts, audio posts, image post or gallery posts with ease. We created a ton of Variables, that make customization super easy.
+#### Why Should I Use This?
+By using this template you will have a website that is well designed, easy to maintain, free to host and easy to update. While there are many options out there for personal and professional websites, most are dependant on the platform on which they were built, and cannot be easily migrated. This template, while built for Github Pages integration, provides flexibility should you choose to host it elsewhere.
 
-This theme is powerful and it comes with a few extras. It also comes with a lot of different layouts for you and in pretty material design.
-
-## Features
-The theme comes with a grunt file, which means that working with it is super easy. We have Tasks that compile, concatenate, minify and even deploy to your site.
-
-### Extensive Documentation
-We don't believe in delivering Code without explanation. So we wrote an extensive Documentation for Twister that goes over every single step from installing all of the dependencies to explaining how to customize, create posts and publish. We even tell you how you can host Twister with Plugins on GitHub pages.
-
-Check the [Docs](http://gridster.digitalmind.ch/documentation/) out.
-
-### Feedback, Wishes, Problems
-If you run into any trouble or have a request please do so by opening up an issue on the theme's GitHub page.
-If you just want to give us a general feedback feel free to [contact us!](http://digitalmind.ch/contact/)
+## [Getting Started Guide](https://ncsu-libraries.github.io/jekyll-academic-docs/)
+Complete documentation for getting started as well as advanced features of Jekyll Academic can be found at [https://ncsu-libraries.github.io/jekyll-academic-docs/](https://ncsu-libraries.github.io/jekyll-academic-docs/).
