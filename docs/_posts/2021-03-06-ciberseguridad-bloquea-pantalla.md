@@ -1,10 +1,10 @@
 ---
-date: 2017-01-15
-title: Front matter
+date: 2021-03-06
+title: Bloquea tu pantalla
 video_id: 42vlM8bvrtk
-description: Use front matter to set variables on your page
+description: No importa qué dispositivo uses, aprende a bloquear el acceso
 categories:
-  - account-settings
+  - Ciberseguridad
 resources:
   - name: "Front matter documentation"
     link: https://jekyllrb.com/docs/frontmatter/
