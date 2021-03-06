@@ -12,13 +12,13 @@ newsletter_action:
 logo: /siteicon.png
 description: MEJORA. AVANZA. CRECE.
 author:
-  name:
-  email:
+  name: Carlos Chee
+  email: hola@asesoreducativo.mx
   twitter: # twitter username without the @ symbol
 social:
-  name: Base Template
+  name: CHEE asesor educativo
   links:
-    - https://github.com/CloudCannon/base-jekyll-template
+    - https://www.youtube.com/channel/UCddgFktXejvPcRMvn1N-ELQ
 
 # -----
 # Build
