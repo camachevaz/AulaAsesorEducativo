@@ -1,12 +1,6 @@
-# Site navigation links
-- title: Home
-  url: /
-
-- title: Presentations
-  url: /presentations/
-
-- title: Resume
-  url: /resume/
-
-- title: Blog
-  url: /blog/
+- name: Tutorials
+  link: /
+- name: Videos
+  link: /videos/
+- name: FAQ
+  link: /faq/

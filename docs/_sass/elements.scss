@@ -1,166 +1,48 @@
-/*
-   Rules
-   ========================================================================== */
-
-hr {
-	display: block;
-	margin: 1em 0;
+html, body {
 	padding: 0;
-	height: 1px;
-	border: 0;
-	border-top: 1px solid #ccc;
-	border-bottom: 1px solid #fff;
+	margin: 0;
+	background: #343642;
 }
 
-/*
-   Figures and images
-   ========================================================================== */
-
-figure {
-	margin-bottom: $indent-var;
+body {
+	min-height: 100vh;
+	color: $dark-grey;
+	-webkit-font-smoothing: antialiased;
 }
 
-article img {
+h2, h2 a {
+	color: $dark-grey;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+h4 {
+	margin: 0 0 20px 0;
+}
+
+img {
 	max-width: 100%;
-	height: auto;
-	border-width: 0;
-	vertical-align: middle;
-	-ms-interpolation-mode: bicubic;
 }
 
-svg:not(:root) {
-		overflow: hidden;
-}
-
-/* 2 images of equal dimensions in a row */
-
-.half {
-	@include container;
-	@include clearfix;
-	@media #{$micro} {
-		img {
-			@include grid(12,6);
-		}
-		figcaption {
-			@include grid(12,12);
-		}
-	}
-}
-
-/* 3 images of equal dimensions in a row */
-
-.third {
-	@include container;
-	@include clearfix;
-	@media #{$micro} {
-		img {
-			@include grid(12,4);
-		}
-		figcaption {
-			@include grid(12,12);
-		}
-	}
-}
-
-/*
-   Buttons
-   ========================================================================== */
-
-/* Default button */
-
-.btn {
-  display: inline-block;
-  margin-bottom: 20px;
-  padding: 8px 20px;
-  @include font-rem(14);
-  font-family: $heading-font;
-  font-weight: 700;
-  background-color: $primary;
-  color: $white;
-  border-width: 2px !important;
-  border-style: solid !important;
-  border-color: $primary;
-  text-decoration: none !important;
-  @include rounded(3px);
-  &:visited {
-    color: $white;
-  }
-  &:hover {
-    background-color: $white;
-    color: $primary;
-  }
-}
-
-/* Success button */
-
-.btn-success {
-  background-color: $success;
-  color: $white;
-  border-color: $success;
-  &:visited {
-    color: $white;
-  }
-  &:hover {
-    background-color: $white;
-    color: $success;
-  }
-}
-
-/* Warning button */
-
-.btn-warning {
-  background-color: $warning;
-  color: $white;
-  border-color: $warning;
-  &:visited {
-    color: $white;
-  }
-  &:hover {
-    background-color: $white;
-    color: $warning;
-  }
-}
-
-/* Danger button */
-
-.btn-danger {
-  background-color: $danger;
-  color: $white;
-  border-color: $danger;
-  &:visited {
-    color: $white;
-  }
-  &:hover {
-    background-color: $white;
-    color: $danger;
-  }
-}
-
-/* Information button */
-
-.btn-info {
-  background-color: $info;
-  color: $white;
-  border-color: $info;
-  &:visited {
-    color: $white;
-  }
-  &:hover {
-    background-color: $white;
-    color: $info;
-  }
-}
-
-/*
-   Wells
-   ========================================================================== */
-
-.well {
-	min-height: 20px;
-	padding: 19px;
+ul, ol {
+	margin-top: 20px;
 	margin-bottom: 20px;
-	background-color: #f5f5f5;
-	border: 1px solid #e3e3e3;
-	@include rounded(4px);
-	@include box-shadow(inset 0 1px 1px rgba(0, 0, 0, 0.05));
+	li {
+		margin: 0 0 10px 0;
+	}
+}
+
+code, pre, tt {
+	font-family: Inconsolata,Consolas,Courier,"Courier New","Liberation Mono",monospace;
+	font-size: .9em;
+	white-space: pre-wrap;
+	border-radius: 2px;
+	line-height: 1.4;
+	font-weight: 400;
+	background-color: #404145;
+	color: #FAFAFA;
+	border-radius: 2px;
+	padding: 2px 5px;
 }
