@@ -1,9 +1,9 @@
 ---
-date: 2017-01-16
-title: Change password
+date: 2021-03-06
+title: Organiza tu información
 categories:
-  - account-settings
-description: Keep your account secure
+  - Hojas de cálculo
+description: Usa las hojas de cálculo de forma que te ayuden a entender la información.
 type: Document
 ---
 Jekyll is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through a converter (like Markdown) and our Liquid renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server.
