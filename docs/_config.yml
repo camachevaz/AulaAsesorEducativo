@@ -3,7 +3,7 @@
 
 title: Aula - CHEE asesor educativo
 url: "https://aula.asesoreducativo.mx/"
-baseurl:
+baseurl: https://aula.asesoreducativo.mx/
 google_analytics_key:
 disqus_shortname:
 newsletter_action:
