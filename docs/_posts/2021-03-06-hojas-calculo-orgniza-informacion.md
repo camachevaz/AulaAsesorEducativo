@@ -2,7 +2,7 @@
 date: 2021-03-06
 title: Organiza tu información
 categories:
-  - hojas-de-calculo
+  - Hojas de cálculo
 description: Usa las hojas de cálculo de forma que te ayuden a entender la información.
 type: Document
 ---
