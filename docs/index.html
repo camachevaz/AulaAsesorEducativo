@@ -8,10 +8,7 @@
 		{% assign posts = category[1] %}
 		{% assign size = posts | size %}
 		<section class="category">
-				<h3>
-					{% comment %}<a href="{{ site.baseurl }}/category/{{ name | slugify }}/">{{ name | replace: "-", " " }}</a> {% endcomment %}
-					{{ name | replace: "-", " " }}
-				</h3>
+				<h3>{{ name | replace: "-", " " }}</h3>
 
 			<ul>
 				{% assign tutorials = posts | sort: "title" %}
