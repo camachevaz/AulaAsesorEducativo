@@ -6,6 +6,6 @@ categories:
 description: Ya estamos en internet, ahora ¿cómo encontramos lo que queremos? Internet es un lugar vasto y debemos aprender a mantenernos seguros.
 video_id: 42vlM8bvrtk
 type: Video
-set: Alfabetización digital
+set: alfabetizacion-digital
 order_number: 5
 ---

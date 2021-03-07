@@ -6,6 +6,6 @@ categories:
 description: El mapa es una app esencial para movernos con eficiencia, incluso en lugares que ya conocemos. Aprende cómo aprovechar sus funciones y descubre nuevas rutas en caminos conocidos.
 video_id: 42vlM8bvrtk
 type: Video
-set: Alfabetización digital
+set: alfabetizacion-digital
 order_number: 11
 ---

@@ -6,6 +6,6 @@ categories:
 description: Aprende qué opciones tienes cuando estás haciendo una llamada, a parte de hablar, claro está.
 video_id: 42vlM8bvrtk
 type: Video
-set: Alfabetización digital
+set: alfabetizacion-digital
 order_number: 1
 ---

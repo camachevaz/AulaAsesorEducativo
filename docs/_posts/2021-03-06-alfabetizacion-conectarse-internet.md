@@ -6,6 +6,6 @@ categories:
 description: Nuestros dispositivos pueden ser muy modernos, pero ¿qué son sin internet? Aprenderás a conectarte a internet y a controlar tu conexión.
 video_id: 42vlM8bvrtk
 type: Video
-set: Alfabetización digital
+set: alfabetizacion-digital
 order_number: 4
 ---

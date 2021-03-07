@@ -6,6 +6,6 @@ categories:
 description: Messenger maneja los mensajes de forma distinta a Signal, Telegram, SMS, o Whatsapp. Aprende a gestionarlos con seguridad.
 video_id: 42vlM8bvrtk
 type: Video
-set: Alfabetización digital
+set: alfabetizacion-digital
 order_number: 9
 ---

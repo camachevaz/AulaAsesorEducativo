@@ -6,6 +6,6 @@ categories:
 description: Ya sea para compartir algo que vimos, resolver una duda, documentar algún hecho, o muchas otras razons, necesitamos saber cómo capturar nuestra pantalla, y qué hacer con dichas capturas.
 video_id: 42vlM8bvrtk
 type: Video
-set: Alfabetización digital
+set: alfabetizacion-digital
 order_number: 6
 ---
