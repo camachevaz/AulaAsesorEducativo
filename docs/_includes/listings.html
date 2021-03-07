@@ -1,7 +1,7 @@
 <ul class="listing">
 	{% for item in include.listings %}
 		<li {% if item.url == page.url %}class="active"{% endif %}>
-			{% comment %}<a href="{{ site.baseurl }}{{ item.url }}"> {% endcomment %}
+			<a href="{{ site.baseurl }}{{ item.url }}">
 				<div class="icon">{% include document-icon.html icon=item.type %}</div>
 				<article>
 					<div>
@@ -9,7 +9,7 @@
 						<p class="description">{{ item.description }}</p>
 					</div>
 				</article>
-			{% comment %} </a> {% endcomment %}
+			</a>
 		</li>
 	{% endfor %}
 </ul>
