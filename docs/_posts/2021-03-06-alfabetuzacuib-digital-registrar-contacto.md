@@ -5,11 +5,6 @@ categories:
   - Alfabetizacón digital
 description: Sea cual sea tu dispositivo, aprenderás cómo guardar un contacto nuevo para poder llamar o mensajear después.
 video_id: 42vlM8bvrtk
-resources:
-  - name: "Front matter documentation"
-    link: https://jekyllrb.com/docs/frontmatter/
-  - name: "Source code"
-    link: https://github.com/CloudCannon/bakery-store/tree/frontmatter
 type: Video
 set: Alfabetización digital
 order_number: 1
