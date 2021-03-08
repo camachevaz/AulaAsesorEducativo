@@ -1,22 +1,22 @@
-# Base
+# Edition
 
-Knowledge base template for Jekyll. Browse through a [live demo](https://orange-ape.cloudvent.net/).
+Product documentation template for Jekyll. Browse through a [live demo](https://long-pig.cloudvent.net/).
+Start documenting your product, application, service or website with this configurable theme.
 
-![Base template screenshot](images/_screenshot.png)
+![Edition template screenshot](images/_screenshot.png)
 
-Base was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
+Edition was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
 
 Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
 
 ## Features
 
-* Tutorials organised by category
-* Two types of tutorials - text and video
-* Ability to have a "tutorial series"
-* FAQ section
-* Disqus comments
-* Sticky sidebar for main headings in tutorials
+* Two column layout
+* Full text search
+* Pre-styled components
+* Auto-generated navigation based on category
 * Optimised for editing in [CloudCannon](http://cloudcannon.com/)
+* Change log
 * RSS/Atom feed
 * SEO tags
 * Google Analytics
@@ -24,12 +24,11 @@ Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Ac
 ## Setup
 
 1. Add your site and author details in `_config.yml`.
-2. Add your Google Analytics, Disqus and MailChimp keys to `_config.yml`.
-3. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
+2. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
 
 ## Develop
 
-Base was built with [Jekyll](http://jekyllrb.com/) version 3.4.3, but should support newer versions as well.
+Edition was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
 
 Install the dependencies with [Bundler](http://bundler.io/):
 
@@ -45,32 +44,23 @@ $ bundle exec jekyll serve
 
 ## Editing
 
-Base is already optimised for adding, updating and removing tutorials, navigation, footer and FAQ information in CloudCannon.
+Edition is already optimised for adding, updating and removing documentation pages in CloudCannon.
 
-The sticky sidebar in tutorials in populated by pulling out `<h2>` elements from the content.
+### Documentation pages
 
-### Posts
+* Add, update or remove a documentation page in the *Documentation* collection.
+* Change the category of a documentation page to move it to another section in the navigation.
+* Documentation pages are organised in the navigation by category, with URLs based on the path inside the `_docs` folder.
 
-* Add, update or remove a post in the *Posts* collection.
-* The tutorials page is organised by categories.
-* Change the defaults when new posts are created in `_posts/_defaults.md`.
+### Change log
 
-### Post Series
-To create a new series:
+* Add, update or remove change log entries from your posts.
+* Tag entries as minor or major in the front matter.
 
-* Add a new document to the `sets` collection.
-* Set the `title` and `description`.
+### Search
 
-To add a tutorial/post to a series:
-* Add a `set` field to the tutorial front matter which points to the file name of the desired set without the `.md` extention. e.g. If I have a set at `_sets/getting-started.md` I would use this in my tutorial front matter: `set: getting-started`.
-* Add a `order_number` field to the tutorial front matter and specify a number. This is the tutorials order in the set.
+* Add `excluded_in_search: true` to any documentation page's front matter to exclude that page in the search results.
 
 ### Navigation
 
-* Exposed as a data file to give clients better access.
-* Set in the *Data* / *Navigation* section.
-
-### Footer
-
-* Exposed as a data file to give clients better access.
-* Set in the *Data* / *Footer* section.
+* Change `site.show_full_navigation` to control all or only the current navigation group being open.

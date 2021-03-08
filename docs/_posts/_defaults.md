@@ -1,7 +1,14 @@
 ---
-date:
 title:
-categories:
-description:
-type: Document
+type: major
 ---
+
+This release introduces
+
+**Features:**
+
+*
+
+**Fixes:**
+
+*
