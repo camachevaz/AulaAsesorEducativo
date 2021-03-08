@@ -8,7 +8,7 @@ title: Historial de cambios
 	{% for change in site.posts %}
 		<div class="changelog-item">
 			<h3>{{ change.title }}</h3>
-			<p><span class="date">{{ change.date | date: "%B %d, %Y" }}</span> <span class="badge {{ change.type }}">{{ change.type }}</span></p>
+			<p><span class="date">{{ change.date | date: "%Y-%m-%d" }}</span> <span class="badge {{ change.type }}">{{ change.type }}</span></p>
 
 			{{ change.content }}
 		</div>
