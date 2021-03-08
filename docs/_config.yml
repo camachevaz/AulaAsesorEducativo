@@ -75,5 +75,5 @@ defaults:
 # CloudCannon
 
 types:
-  - minor
-  - major
+  - menor
+  - mayor
