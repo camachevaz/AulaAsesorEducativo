@@ -3,12 +3,12 @@ title:
 type: major
 ---
 
-This release introduces
+Esta versión integra
 
-**Features:**
+**Características:**
 
 *
 
-**Fixes:**
+**Arreglos:**
 
 *

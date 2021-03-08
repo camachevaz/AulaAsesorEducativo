@@ -1,16 +1,16 @@
 ---
-title: General fixes and improvements
+title: Arreglos generales y mejoras
 type: minor
 ---
 
-This release fixes a few minor issues reported by users. We've also made a few quality of life improvements.
+Esta versión arregla algunos problemas menores reportados por usuarios. También algunas mejoras generales.
 
-**Features:**
+**Características:**
 
-* Streamlined access to contact details
-* Better sort order for archived messages
+* Fácil acceso a detalles de contacto
+* Mejor orden de organización para mensajes archivados
 
-**Fixes:**
+**Arreglos:**
 
-* Input sometimes getting stuck
-* One more memory leak obliterated
+* La entrada de información a veces se trababa
+* Una fuga mas de memoria obliterada
