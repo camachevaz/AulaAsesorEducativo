@@ -1,66 +1,45 @@
-# Edition
+# MkDocs Jekyll Theme
 
-Product documentation template for Jekyll. Browse through a [live demo](https://long-pig.cloudvent.net/).
-Start documenting your product, application, service or website with this configurable theme.
+[![CircleCI](https://circleci.com/gh/vsoch/mkdocs-jekyll/tree/master.svg?style=svg)](https://circleci.com/gh/vsoch/mkdocs-jekyll/tree/master)
 
-![Edition template screenshot](images/_screenshot.png)
+![https://raw.githubusercontent.com/vsoch/mkdocs-jekyll/master/assets/img/mkdocs-jekyll.png](https://raw.githubusercontent.com/vsoch/mkdocs-jekyll/master/assets/img/mkdocs-jekyll.png)
 
-Edition was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
+This is a [starter template](https://vsoch.github.com/mkdocs-jekyll/) for a mkdocs jekyll theme, based on these two
+previous arts:
 
-Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
+ - [alexcarpenter/material-jekyll-theme](http://alexcarpenter.github.io/material-jekyll-theme)
+ - [squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material)
 
-## Features
+## Usage
 
-* Two column layout
-* Full text search
-* Pre-styled components
-* Auto-generated navigation based on category
-* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
-* Change log
-* RSS/Atom feed
-* SEO tags
-* Google Analytics
+### 1. Get the code
 
-## Setup
+You can clone the repository right to where you want to host the docs:
 
-1. Add your site and author details in `_config.yml`.
-2. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
+```bash
+git clone https://github.com/vsoch/mkdocs-jekyll.git docs
+cd docs
+```
 
-## Develop
+### 2. Customize
 
-Edition was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
+To edit configuration values, customize the [_config.yml](https://github.com/vsoch/mkdocs-jekyll/blob/master/_config.yml).
+To add pages, write them into the [pages](https://github.com/vsoch/mkdocs-jekyll/tree/master/pages) folder. 
+You define urls based on the `permalink` attribute in your pages,
+and then add them to the navigation by adding to the content of [_data/toc.myl](https://github.com/vsoch/mkdocs-jekyll/blob/master/_data/toc.yml).
 
-Install the dependencies with [Bundler](http://bundler.io/):
+### 3. Options
 
-~~~bash
-$ bundle install
-~~~
+Most of the configuration values in the [_config.yml](https://github.com/vsoch/mkdocs-jekyll/blob/master/_config.yml) are self explanatory,
+and for more details, see the [about page](https://vsoch.github.io/mkdocs-jekyll/about/)
+rendered on the site.
 
-Run `jekyll` commands through Bundler to ensure you're using the right versions:
+### 4. Serve
 
-~~~bash
-$ bundle exec jekyll serve
-~~~
+Depending on how you installed jekyll:
 
-## Editing
-
-Edition is already optimised for adding, updating and removing documentation pages in CloudCannon.
-
-### Documentation pages
-
-* Add, update or remove a documentation page in the *Documentation* collection.
-* Change the category of a documentation page to move it to another section in the navigation.
-* Documentation pages are organised in the navigation by category, with URLs based on the path inside the `_docs` folder.
-
-### Change log
-
-* Add, update or remove change log entries from your posts.
-* Tag entries as minor or major in the front matter.
-
-### Search
-
-* Add `excluded_in_search: true` to any documentation page's front matter to exclude that page in the search results.
-
-### Navigation
-
-* Change `site.show_full_navigation` to control all or only the current navigation group being open.
+```bash
+jekyll serve
+# or
+bundle exec jekyll serve
+```
