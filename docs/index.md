@@ -1,5 +1,5 @@
 ---
-title: Welcome
+title: ¿Qué vas a aprender hoy?
 ---
 
 This is the **Edition** template from [CloudCannon](http://cloudcannon.com/).
