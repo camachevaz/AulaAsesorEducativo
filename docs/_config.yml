@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Aula - CHEE asesor educativo
+title: Asesoría Académica
 url: "https://aula.asesoreducativo.mx/"
 baseurl: 
 google_analytics_key:
@@ -10,7 +10,7 @@ newsletter_action:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: MEJORA. AVANZA. CRECE.
+description: Aprende. A tu ritmo.
 author:
   name: Carlos Chee
   email: hola@asesoreducativo.mx
