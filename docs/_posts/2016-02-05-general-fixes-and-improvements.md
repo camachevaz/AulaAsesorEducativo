@@ -1,6 +1,6 @@
 ---
 title: Arreglos generales y mejoras
-type: minor
+type: menor
 ---
 
 Esta versión arregla algunos problemas menores reportados por usuarios. También algunas mejoras generales.
