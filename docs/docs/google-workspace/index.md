@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Alfabetizacion digital
-nav_order: 2
+title: Google Workspace
+nav_order: 3
 has_children: true
 ---

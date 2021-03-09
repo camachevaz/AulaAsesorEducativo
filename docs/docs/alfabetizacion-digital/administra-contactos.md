@@ -1,6 +1,6 @@
 ---
 layout: default
 title: Administra tus contactos
-parent: Alfabetizacion digital
+parent: Alfabetización digital
 nav_order: 1
 ---
