@@ -3,27 +3,14 @@
   children:
     - title: Agregar contactos
       url: "docs/alfabetizacion-digital/contactos"
-    - title: Development
-      url: "docs/getting-started#development"
-    - title: Customization
-      url: "docs/getting-started#customization"
-- title: "Getting Started"
-  url: "docs/getting-started"
-  children:
-    - title: Features
-      url: "docs/getting-started#getting-started"
-    - title: Development
-      url: "docs/getting-started#development"
-    - title: Customization
-      url: "docs/getting-started#customization"
 - title: "Extras"
   url: "docs/extras"
   children:
-    - title: Quizzes
+    - title: Cuestionarios
       url: "docs/extras/example-quiz"
     - title: Interactive Code
       url: "docs/extras/interactive"
 - title: "Acerca de"
   url: "acercade"
-- title: "News"
-  url: "news"
+- title: "Noticias"
+  url: "noticias"
