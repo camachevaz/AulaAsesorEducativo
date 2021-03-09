@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Registrar contactos
-parent: alfabetizacion-digital
+parent: Alfabetización digital
 nav_order: 1
 ---
 
