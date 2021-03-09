@@ -3,13 +3,6 @@
   children:
     - title: Agregar contactos
       url: "docs/alfabetizacion-digital/contactos"
-- title: "Extras"
-  url: "docs/extras"
-  children:
-    - title: Cuestionarios
-      url: "docs/extras/example-quiz"
-    - title: Interactive Code
-      url: "docs/extras/interactive"
 - title: "Acerca de"
   url: "acercade"
 - title: "Noticias"
