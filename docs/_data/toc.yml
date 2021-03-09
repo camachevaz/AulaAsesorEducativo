@@ -3,7 +3,3 @@
   children:
     - title: Agregar contactos
       url: "docs/alfabetizacion-digital/contactos"
-- title: "Acerca de"
-  url: "acercade"
-- title: "Noticias"
-  url: "noticias"
