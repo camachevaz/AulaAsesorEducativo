@@ -2,7 +2,7 @@
   url: "docs/alfabetizacion-digital"
   children:
     - title: Features
-      url: "docs/getting-started#getting-started"
+      url: "docs/example-page.md"
     - title: Development
       url: "docs/getting-started#development"
     - title: Customization
