@@ -2,7 +2,7 @@
   url: "docs/alfabetizacion-digital"
   children:
     - title: "Maneja tus contactos"
-    - url: "docs/alfabetizacion-digital#contactos"
+    - url: "docs/getting-started#getting-started"
     - title: "Llamadas"
     - url: "docs/alfabetizacion-digital#llamadas"
     - title: "Mensajes SMS"
