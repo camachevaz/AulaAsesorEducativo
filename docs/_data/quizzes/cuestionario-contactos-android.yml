@@ -1,0 +1,23 @@
+title: 
+randomized: true
+questions:
+
+ - type: "multiple-choice"
+   question: "Puedes agregar un nuevo contacto solamente desde la aplicación de contactos"
+   items:
+    - choice: Verdadero
+      correct: false
+    - choice: Falso
+      correct: true
+   followup: | 
+      Falso. Puedes agregar contactos desde la aplicación Contactos o desde el Marcador de teléfono. Normalmente es más fácil hacerlo desde el Marcador.
+
+ - type: "multiple-choice"
+   question: "Cuando agregas un contacto estará disponible para todas tus aplicaciones instaladas"
+   items:
+    - choice: Verdadero
+      correct: true
+    - choice: Falso
+      correct: false
+   followup: | 
+      Verdadero. Una vez que un contacto está guardado en el sistema operativo, las aplicaciones que tengan permiso pueden acceder a tu libreta y de ahí tomar su información.
