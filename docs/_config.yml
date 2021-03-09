@@ -65,7 +65,7 @@ heading_anchors: true
 # Aux links for the upper right navigation
 aux_links:
   "Parte de CHEE asesor educativo":
-    - ""
+    - "//asesoreducativo.mx"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
@@ -79,7 +79,7 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 
 # Back to top link
 back_to_top: true
-back_to_top_text: "Volver al inicio"
+back_to_top_text: "Volver arriba"
 
 footer_content: "Copyright &copy; 2018-2021 Carlos Manuel Chee Vázquez. Distribuido con una <a href=\"https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt\">licencia del MIT.</a>"
 
