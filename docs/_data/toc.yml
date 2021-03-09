@@ -2,7 +2,7 @@
   url: "docs/alfabetizacion-digital"
   children:
     - title: "Maneja tus contactos"
-    - url: "docs/getting-started#getting-started"
+    - url: "docs/alfabetizacion-digital#contactos"
     - title: "Llamadas"
     - url: "docs/alfabetizacion-digital#llamadas"
     - title: "Mensajes SMS"
@@ -37,11 +37,9 @@
   children:
     - title: Quizzes
       url: "docs/extras/example-quiz"
-    - title: Discussion Forum
-      url: "forum"
     - title: Interactive Code
       url: "docs/extras/interactive"
-- title: "About"
-  url: "about"
+- title: "Acerca de"
+  url: "acercade"
 - title: "News"
   url: "news"
