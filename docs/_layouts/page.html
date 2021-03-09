@@ -3,6 +3,7 @@ layout: default
 ---
 <div class="md-content"> 
     <article class="md-content__inner md-typeset">
+    {% if page.badges %}{% for badge in page.badges %}<span class="badge badge-{{ badge.type }}">{{ badge.tag }}</span>{% endfor %}{% endif %}
     {{ content }}
     {% include toc.html %}
     </article>
