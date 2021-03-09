@@ -1,6 +1,6 @@
 ---
-title: About
-permalink: /about/
+title: Acerca de
+permalink: /acercade/
 ---
 
 # About
