@@ -12,3 +12,5 @@ tags:
 ## Editar contactos
 
 ## Eliminar contactos
+
+{% include quiz.html file='cuestionario-contactos-android' %}
