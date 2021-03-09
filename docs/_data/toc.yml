@@ -2,7 +2,7 @@
   url: "docs/alfabetizacion-digital"
   children:
     - title: Features
-      url: "/docs/alfabetizacion-digital/contactos"
+      url: "docs/alfabetizacion-digital/contactos"
     - title: Development
       url: "docs/getting-started#development"
     - title: Customization
