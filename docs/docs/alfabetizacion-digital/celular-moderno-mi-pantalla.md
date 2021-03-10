@@ -7,3 +7,15 @@ nav_order: 2
 ---
 
 # ¿Qué estoy viendo en mi pantalla?
+
+## ¿Qué son y de dónde salen?
+
+## Permisos
+
+## ¿Cómo gestionarlas? 
+
+### Administración de cuenta y correo electrónico
+
+### Instalación
+
+### Desinstalación

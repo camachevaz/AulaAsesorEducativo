@@ -7,3 +7,5 @@ nav_order: 1
 ---
 
 # ¿Qué es un sistema operativo?
+
+## Opciones básicas y configuración del sistema operativo

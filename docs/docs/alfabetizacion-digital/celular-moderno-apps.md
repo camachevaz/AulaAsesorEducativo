@@ -7,3 +7,9 @@ nav_order: 4
 ---
 
 # Las apps
+
+## La pantalla principal
+
+## La lista de aplicaciones
+
+## Bloqueo de pantalla
