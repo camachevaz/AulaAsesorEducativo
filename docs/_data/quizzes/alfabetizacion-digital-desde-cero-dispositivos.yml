@@ -1,0 +1,23 @@
+title: 
+randomized: true
+questions:
+
+ - type: "multiple-choice"
+   question: "Nuestros celulares, tabletas, y computadoras son básicamente el mismo tipo de tecnología"
+   items:
+    - choice: Verdadero
+      correct: true
+    - choice: Falso
+      correct: false
+   followup: | 
+      Verdadero. Los tres tipos de dispositivos tienen el mismo tipo de estructura técnica solo que con diferentes formas.
+
+ - type: "multiple-choice"
+   question: "Puedes incrementar fácilmente el espacio de almacenamiento en tu celular o tableta"
+   items:
+    - choice: Verdadero
+      correct: false
+    - choice: Falso
+      correct: true
+   followup: | 
+      Falso. La miniaturización en estos dispositivos hace prácticamente imposible que un usuario aumente la capacidad de almacenamiento con la que fue fabricado.
