@@ -11,3 +11,7 @@ nav_order: 3
 ## ¿Qué es internet y cómo me conecto?
 
 ## ¿Cómo encuentro lo que busco?
+
+# Autoevaluación
+
+{% include quiz.html file='cuestionario-contactos-android' %}

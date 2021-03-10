@@ -7,3 +7,7 @@ nav_order: 1
 ---
 
 # El navegador moderno
+
+# Autoevaluación
+
+{% include quiz.html file='cuestionario-contactos-android' %}

@@ -7,3 +7,7 @@ nav_order: 3
 ---
 
 # Engaños comunes
+
+# Autoevaluación
+
+{% include quiz.html file='cuestionario-contactos-android' %}

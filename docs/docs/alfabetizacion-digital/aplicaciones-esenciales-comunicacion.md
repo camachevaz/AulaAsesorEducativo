@@ -19,3 +19,7 @@ nav_order: 1
 ## Facebook Messenger
 
 ## Facebook
+
+# Autoevaluación
+
+{% include quiz.html file='cuestionario-contactos-android' %}

@@ -23,3 +23,7 @@ nav_order: 2
 ### PrimeVideo
 
 ### Otros servicios Sobre Demanada
+
+# Autoevaluación
+
+{% include quiz.html file='cuestionario-contactos-android' %}

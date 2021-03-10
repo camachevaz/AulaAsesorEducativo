@@ -19,3 +19,7 @@ nav_order: 2
 ### Instalación
 
 ### Desinstalación
+
+# Autoevaluación
+
+{% include quiz.html file='cuestionario-contactos-android' %}

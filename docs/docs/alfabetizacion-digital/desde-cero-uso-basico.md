@@ -17,3 +17,7 @@ nav_order: 4
 ## Hacer llamadas
 
 ## ¿Qué es un texto y cómo se envía? Los mensajes SMS
+
+# Autoevaluación
+
+{% include quiz.html file='cuestionario-contactos-android' %}

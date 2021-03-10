@@ -13,3 +13,7 @@ nav_order: 4
 ## La lista de aplicaciones
 
 ## Bloqueo de pantalla
+
+# Autoevaluación
+
+{% include quiz.html file='cuestionario-contactos-android' %}

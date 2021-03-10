@@ -31,3 +31,7 @@ nav_order: 4
 ### Google Docs
 
 ### Office 365
+
+# Autoevaluación
+
+{% include quiz.html file='cuestionario-contactos-android' %}

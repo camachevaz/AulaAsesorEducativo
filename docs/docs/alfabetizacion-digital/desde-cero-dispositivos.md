@@ -7,3 +7,7 @@ nav_order: 1
 ---
 
 # ¿Qué son los dispositivos (móviles y electrónicos)?
+
+# Autoevaluación
+
+{% include quiz.html file='cuestionario-contactos-android' %}

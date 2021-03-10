@@ -13,3 +13,7 @@ nav_order: 3
 ### Google Fotos
 
 ### iCloud
+
+# Autoevaluación
+
+{% include quiz.html file='cuestionario-contactos-android' %}
