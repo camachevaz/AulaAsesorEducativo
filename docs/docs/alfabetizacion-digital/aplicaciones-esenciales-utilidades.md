@@ -2,7 +2,7 @@
 layout: default
 title: Utilidades
 parent: Aplicaciones esenciales
-grand_parent: Para adultos mayores
+grand_parent: Alfabetización digital
 nav_order: 4
 ---
 

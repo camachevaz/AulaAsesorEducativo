@@ -2,7 +2,7 @@
 layout: default
 title: ¿Qué son los dispositivos (móviles y electrónicos)?
 parent: Empezando desde cero
-grand_parent: Para adultos mayores
+grand_parent: Alfabetización digital
 nav_order: 1
 ---
 

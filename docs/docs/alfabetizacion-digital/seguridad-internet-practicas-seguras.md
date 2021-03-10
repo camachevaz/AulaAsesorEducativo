@@ -2,7 +2,7 @@
 layout: default
 title: Prácticas seguras recomendadas
 parent: Seguridad en internet
-grand_parent: Para adultos mayores
+grand_parent: Alfabetización digital
 nav_order: 4
 ---
 

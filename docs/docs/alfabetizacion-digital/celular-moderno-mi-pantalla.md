@@ -2,7 +2,7 @@
 layout: default
 title: ¿Qué estoy viendo en mi pantalla?
 parent: El celular actual
-grand_parent: Para adultos mayores
+grand_parent: Alfabetización digital
 nav_order: 2
 ---
 

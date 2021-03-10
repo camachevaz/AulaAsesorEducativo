@@ -2,7 +2,7 @@
 layout: default
 title: Las apps
 parent: El celular actual
-grand_parent: Para adultos mayores
+grand_parent: Alfabetización digital
 nav_order: 4
 ---
 

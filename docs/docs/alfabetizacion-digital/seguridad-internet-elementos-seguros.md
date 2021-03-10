@@ -2,7 +2,7 @@
 layout: default
 title: Identificación visual de elementos seguros
 parent: Seguridad en internet
-grand_parent: Para adultos mayores
+grand_parent: Alfabetización digital
 nav_order: 2
 ---
 

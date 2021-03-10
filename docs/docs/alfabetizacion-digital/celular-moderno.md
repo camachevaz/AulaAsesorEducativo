@@ -1,7 +1,7 @@
 ---
 layout: default
 title: El celular actual
-parent: Para adultos mayores
+parent: Alfabetización digital
 has_children: true
 nav_order: 2
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Empezando desde cero
-parent: Para adultos mayores
+parent: Alfabetización digital
 has_children: true
 nav_order: 1
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Entretenimiento y ocio
 parent: Aplicaciones esenciales
-grand_parent: Para adultos mayores
+grand_parent: Alfabetización digital
 nav_order: 2
 ---
 
