@@ -7,3 +7,5 @@ nav_order: 2
 ---
  
 # ¿Qué son todos estos botones? _El hardware_
+
+## Componentes fijos y removibles
