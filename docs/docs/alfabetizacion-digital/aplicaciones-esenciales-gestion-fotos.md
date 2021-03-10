@@ -7,3 +7,9 @@ nav_order: 3
 ---
 
 # Gestión de fotos
+
+## Respaldo en la nube
+
+### Google Fotos
+
+### iCloud
