@@ -10,4 +10,4 @@ nav_order: 1
 
 # Autoevaluación
 
-{% include quiz.html file='cuestionario-contactos-android' %}
+{% include quiz.html file='desde-cero-dispositivos' %}
