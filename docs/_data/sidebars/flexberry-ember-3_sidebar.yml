@@ -1,0 +1,90 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+  - title: Sidebar
+    product: Flexberry Ember
+    version: 3.x
+    folders:
+      - title: Getting started
+        title_ru: Начало работы
+        output: web, pdf
+
+        folderitems:
+          - title: Flexberry Ember Guide
+            title_ru: Руководство по Flexberry Ember
+            url: /ef3_landing_page.html
+            output: web, pdf
+
+          - title: Technology overview
+            title_ru: Обзор технологии Flexberry Ember
+            url: /ef3_technology-overview.html
+            output: web, pdf
+
+          - title: Flexberry Ember Tutorial
+            title_ru: Практическое руководство по Flexberry Ember
+            url: /gpg_setting-language-and-structure.html
+            output: web, pdf
+
+      - title: Application generation
+        title_ru: Генерация приложения
+        output: web, pdf
+
+        folderitems:
+          - title: Structure of Flexberry Ember Application
+            title_ru: Обзор структуры сгенерированных приложений
+            url: /efd3_generated-app-structure.html
+            output: web, pdf
+
+      - title: Forms and routing
+        title_ru: Формы и роутинг
+        output: web, pdf
+
+        folderitems:
+
+      - title: Work with data
+        title_ru: Работа с данными
+        output: web, pdf
+
+        folderitems:
+          - title: Client Query Language
+            title_ru: Клиентский язык запросов
+            url: /efd3_query-language.html
+            output: web, pdf
+
+          - title: Model validation
+            title_ru: Валидация моделей
+            url: /efd3_model-validation.html
+            output: web, pdf
+
+      - title: Components
+        title_ru: Компоненты
+        output: web, pdf
+
+        folderitems:
+
+      - title: Services
+        title_ru: Сервисы
+        output: web, pdf
+
+        folderitems:
+          - title: Flexberry Ember Services
+            title_ru: Сервисы Flexberry Ember
+            url: /efd3_service.html
+            output: web, pdf
+
+          - title: Log Service
+            title_ru: Сервис логирования
+            url: /efd3_log-service.html
+            output: web, pdf
+
+      - title: Application themes
+        title_ru: Темы оформления
+        output: web, pdf
+
+        folderitems:
+
+      - title: Mobile development
+        title_ru: Мобильная разработка
+        output: web, pdf
+
+        folderitems:

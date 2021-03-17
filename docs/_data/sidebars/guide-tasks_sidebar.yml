@@ -1,0 +1,116 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  levels: one
+  folders:
+
+  - title: Get started
+    title_ru: Введение
+    output: web
+    folderitems:
+    - title: Practical tasks
+      title_ru: Практические задания
+      url: /gt_landing-page.html
+      output: web    
+  - title: Tasks ASP.NET
+    title_ru: Задания на проектирование и разработку ASP.NET
+    output: web
+    folderitems:
+    - title: Case 01
+      title_ru: Вариант 01
+      url: /gt_full-stack-task-case-01.html
+      output: web
+    - title: Case 02
+      title_ru: Вариант 02
+      url: /gt_full-stack-task-case-02.html
+      output: web
+    - title: Case 03
+      title_ru: Вариант 03
+      url: /gt_full-stack-task-case-03.html
+      output: web
+    - title: Case 04
+      title_ru: Вариант 04
+      url: /gt_full-stack-task-case-04.html
+      output: web
+    - title: Case 05
+      title_ru: Вариант 05
+      url: /gt_full-stack-task-case-05.html
+      output: web
+    - title: Case 06
+      title_ru: Вариант 06
+      url: /gt_full-stack-task-case-06.html
+      output: web
+    - title: Case 07
+      title_ru: Вариант 07
+      url: /gt_full-stack-task-case-07.html
+      output: web
+    - title: Case 08
+      title_ru: Вариант 08
+      url: /gt_full-stack-task-case-08.html
+      output: web
+    - title: Case 09
+      title_ru: Вариант 09
+      url: /gt_full-stack-task-case-09.html
+      output: web
+    - title: Case 10
+      title_ru: Вариант 10
+      url: /gt_full-stack-task-case-10.html
+      output: web
+    - title: Case 11
+      title_ru: Вариант 11
+      url: /gt_full-stack-task-case-11.html
+      output: web
+    - title: Case 12
+      title_ru: Вариант 12
+      url: /gt_full-stack-task-case-12.html
+      output: web
+    - title: Case 13
+      title_ru: Вариант 13
+      url: /gt_full-stack-task-case-13.html
+      output: web
+    - title: Case 14
+      title_ru: Вариант 14
+      url: /gt_full-stack-task-case-14.html
+      output: web
+
+  - title: Tasks Ember
+    title_ru: Задания на проектирование и разработку Ember
+    output: web
+    folderitems:
+    - title: Case 01
+      title_ru: Вариант 01
+      url: /gt_flexberry-ember-case-01.html
+      output: web
+    - title: Case 02
+      title_ru: Вариант 02
+      url: /gt_flexberry-ember-case-02.html
+      output: web
+    - title: Case 03
+      title_ru: Вариант 03
+      url: /gt_flexberry-ember-case-03.html
+      output: web
+    - title: Case 04
+      title_ru: Вариант 04
+      url: /gt_flexberry-ember-case-04.html
+      output: web
+    - title: Case 05
+      title_ru: Вариант 05
+      url: /gt_flexberry-ember-case-05.html
+      output: web
+    - title: Case 06
+      title_ru: Вариант 06
+      url: /gt_flexberry-ember-case-06.html
+      output: web
+    - title: Case 07
+      title_ru: Вариант 07
+      url: /gt_flexberry-ember-case-07.html
+      output: web
+    - title: Case 08
+      title_ru: Вариант 08
+      url: /gt_flexberry-ember-case-08.html
+      output: web
+    - title: Case 21
+      title_ru: Вариант 21
+      url: /gt_flexberry-ember-case-21.html
+      output: web

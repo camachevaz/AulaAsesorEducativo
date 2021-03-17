@@ -1,0 +1,93 @@
+entries:
+- title: Sidebar
+  product: Flexberry GIS
+  folders:
+
+  - title: Сommon information about Flexberry GIS
+    title_ru: Общие сведения о Flexberry GIS
+    output: web, pdf
+    folderitems:
+    - title: About
+      title_ru: О системе
+      url: /fg_landing_page.html
+      output: web
+
+  - title: Addons
+    title_ru: Аддоны
+    output: web, pdf
+
+    folderitems:
+    - title: ember-flexberry-gis
+      url: /efg_landing_page.html
+      output: web, pdf
+
+    - title: ember-flexberry-gis-yandex
+      url: /efgy_ember-flexberry-gis-yandex.html
+      output: web, pdf
+
+    - title: ember-flexberry-gis-esri
+      url: /efgesri_ember-flexberry-gis-esri.html
+      output: web, pdf
+
+    - title: ember-flexberry-gis-csw
+      url: /efgcsw_ember-flexberry-gis-csw.html
+      output: web, pdf
+
+    - title: ember-flexberry-geolocation
+      url: /efgeo_ember-flexberry-geolocation.html
+      output: web, pdf
+
+  - title: Plugins
+    title_ru: Плагины
+    output: web, pdf
+
+    folderitems:
+    - title: Leaflet-WMS
+      url: /lwms_leaflet-wms.html
+      output: web, pdf
+
+    - title: Leaflet-WFST
+      url: /lwfst_leaflet-wfst.html
+      output: web, pdf
+
+    - title: Leaflet.Export
+      url: /le_leaflet-export.html
+      output: web, pdf
+
+    - title: Leaflet.zoomslider
+      url: /lz_leaflet-zoomslider.html
+      output: web, pdf
+
+    - title: Leaflet.Editable.Measures
+      url: /lem_leaflet-editable-measures.html
+      output: web, pdf
+
+    - title: leaflet-switch-scale-control
+      url: /lssc_leaflet-switch-scale-control.html
+      output: web, pdf
+
+    - title: leaflet-history
+      url: /lh_leaflet-history.html
+      output: web, pdf
+
+  - title: Services
+    title_ru: Сервисы
+    output: web, pdf
+
+    folderitems:
+    - title: OData-service with GIS support
+      title_ru: OData-сервис c поддержкой ГИС
+      url: /gos_gis-odata-service.html
+      output: web, pdf
+
+  - title: Demonstration stand
+    title_ru: Демонстрационный стенд
+    output: web, pdf
+
+    folderitems:
+    - title: ember-flexberry-gis-test-stand
+      url: /fg_ember-flexberry-gis-test-stand.html
+      output: web, pdf
+    - title: Устройство билдов
+      url: /fg_content-builds.html
+      output: web, pdf

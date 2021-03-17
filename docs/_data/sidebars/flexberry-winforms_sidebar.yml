@@ -1,0 +1,416 @@
+entries:
+- title: Sidebar
+  product: Flexberry Winforms
+  folders:
+  - title: Сommon information
+    title_ru: Общие сведения
+    output: web, pdf
+
+    folderitems:
+    - title: Flexberry Winforms
+      title_ru: Flexberry Winforms
+      url: /fw_landing_page.html
+      output: web
+
+    - title: General concepts
+      title_ru: Общие концепции
+      url: /fw_general-concepts.html
+      output: web
+
+    - title: Flexberry Winforms architecture
+      title_ru: Базовая системно-технологическая архитектура Flexberry Winforms
+      url: /fw_flexberry-winforms-architecture.html
+      output: web
+
+    - title: Winforms UI FAQ
+      title_ru: Winforms UI FAQ
+      url: /fw_winforms-ui-faq.html
+      output: web
+
+    - title: Ui synchronization context
+      title_ru: Запуск кода в основном потоке приложения из другого потока
+      url: /fw_ui-synchronization-context.html
+      output: web
+
+  - title: Controls
+    title_ru: Контролы
+    output: web, pdf
+
+    folderitems:
+
+    - title: ObjectListView
+      title_ru: ObjectListView
+      url: /fw_objectlistview.html
+      output: web
+
+    - title: GroupEdit
+      title_ru: GroupEdit
+      url: /fw_group-edit.html
+      output: web
+
+    - title: LookUp
+      title_ru: LookUp
+      url: /fw_lookup.html
+      output: web
+
+    - title: FileControl для Winforms
+      title_ru: FileControl
+      url: /fw_file-control.html
+      output: web
+    
+    - title: ComboLookup
+      title_ru: ComboLookup
+      url: /fw_combo-lookup.html
+      output: web
+  
+    - title: DateTimePicker
+      title_ru: DateTimePicker
+      url: /fw_datetime-picker.html
+      output: web
+
+    - title: Highlight active controls
+      title_ru: Подсветка активного контрола
+      url: /fw_high-lighter.html
+      output: web
+
+    - title: Predict input
+      title_ru: Предиктивный ввод в Windows-приложениях
+      url: /fw_predict-input.html
+      output: web
+
+  - title: ObjectListView
+    title_ru: ObjectListView
+    output: web, pdf
+
+    folderitems:
+
+    - title: Events ObjectListView
+      title_ru: События ОbjectListView
+      url: /fw_olv-event.html
+      output: web
+
+    - title: Placing a list of objects in an ObjectListView
+      title_ru: Помещение списка объектов в ObjectListView
+      url: /fw_put-list-objects.html
+      output: web
+
+    - title: PagedObjectListView List Control
+      title_ru: Списковый элемент управления PagedObjectListView
+      url: /fw_paged-objectlistview.html
+      output: web
+
+    - title: Sort Lists
+      title_ru: Сортировка списков
+      url: /fw_list-sort.html
+      output: web
+
+    - title: Managing list operations based on user rights
+      title_ru: Управление операциями списков в зависимости от прав пользователя
+      url: /fw_objectlistview-rights.html
+      output: web
+
+  - title: GroupEdit
+    title_ru: GroupEdit
+    output: web, pdf
+
+    folderitems:
+
+    - title: Events GroupEdit
+      title_ru: События в GroupEdit
+      url: /fw_events-groupedit.html
+      output: web
+
+    - title: FlexGrid
+      title_ru: FlexGrid
+      url: /fw_flex-grid.html
+      output: web
+
+    - title: Editing the details on a separate form
+      title_ru: Редактирование детейлов на отдельной форме
+      url: /fw_ge-editor-ext.html
+      output: web
+
+    - title: Delete empty lines when saving
+      title_ru: Удаление пустых строк при сохранении
+      url: /fw_ge-empty-detail-remover.html
+      output: web
+
+    - title: Date format in GroupEdit 
+      title_ru: Формат даты в GroupEdit
+      url: /fw_groupedit-date-format.html
+      output: web
+
+    - title: Edit mode with locks in GroupEdit
+      title_ru: Режим редактирования с блокировками в GroupEdit
+      url: /fw_lock-rows-in-groupedit.html
+      output: web
+
+  - title: Lookup
+    title_ru: Lookup
+    output: web, pdf
+
+    folderitems:
+
+    - title: Lucap with predictive input
+      title_ru: Лукап с предиктивным вводом
+      url: /fw_extended-lookup.html
+      output: web
+
+    - title: Call an independent master
+      title_ru: Вызов независимого мастера
+      url: /fw_lookup-another-object.html
+      output: web
+      
+  - title: Forms
+    title_ru: Формы
+    output: web, pdf
+
+    folderitems:
+
+    - title: Features of forms in Windows applications
+      title_ru: Особенности форм в Windows-приложениях
+      url: /fw_form-features.html
+      output: web
+
+    - title: Form interaction
+      title_ru: Межформенное взаимодействие в Windows-приложениях
+      url: /fw_form-interaction.html
+      output: web
+
+    - title: Editform
+      title_ru: Формы редактирования (классы со стереотипом editform)
+      url: /fw_editform.html
+      output: web
+
+    - title: List form caption
+      title_ru: Установка заголовка списковой формы
+      url: /fw_list-form-caption.html
+      output: web
+
+    - title: Custom form tuner
+      title_ru: Переход по Enter на форме
+      url: /fw_custom-form-tuner.html
+      output: web
+
+    - title: Customizing the user interface
+      title_ru: Настройка пользовательского интерфейса
+      url: /fw_customizing-user-interface.html
+      output: web
+
+    - title: Processing date in control provider
+      title_ru: Обработка даты в ControlProvider
+      url: /fw_processing-date-in-control-provider.html
+      output: web
+
+  - title: Editform
+    title_ru: Форма редактирования
+    output: web, pdf
+
+    folderitems:
+
+    - title: Edit data objects on forms
+      title_ru: Редактирование объектов данных на формах 
+      url: /fw_edit-objects-on-forms.html
+      output: web
+
+    - title: edit form validation
+      title_ru: Валидация данных
+      url: /fw_edit-form-validation.html
+      output: web
+
+
+  - title: Application
+    title_ru: Приложение
+    output: web, pdf
+
+    folderitems:
+
+    - title: Application and desktop
+      title_ru: Приложение и рабочий стол
+      url: /fw_app-desktop.html
+      output: web
+
+    - title: Desktop operations
+      title_ru: Операции рабочего стола
+      url: /fw_desktop-operations.html
+      output: web
+
+    - title: Readonly win
+      title_ru: Блокировка изменений на формах
+      url: /fw_readonly-win.html
+      output: web
+
+    - title: Working with menu
+      title_ru: Организация меню winforms-приложений
+      url: /fw_working-with-menu.html
+      output: web
+
+  - title: Customization
+    title_ru: Настройка приложения
+    output: web, pdf
+
+    folderitems:
+
+    - title: Localization ui
+      title_ru: Локализация пользовательского интерфейса
+      url: /fw_localization-ui.html
+      output: web
+
+    - title: Visual logic
+      title_ru: Визуальная логика
+      url: /fw_visual-logic.html
+      output: web
+
+    - title: Default date format
+      title_ru: Формат отображения даты по умолчанию
+      url: /fw_date-format.html
+      output: web
+
+    - title: Setting manager
+      title_ru: Хранение настроек пользователя
+      url: /fw_setting-manager.html
+      output: web
+
+  - title: Filters and limits
+    title_ru: Фильтры и ограничения
+    output: web, pdf
+
+    folderitems:
+
+    - title: Advlimit function serialization
+      title_ru: Сохранение ограничений на форме задания ограничения 
+      url: /fw_advlimit-function-serialization.html
+      output: web
+
+    - title: Aliases system and user types
+      title_ru: Алиасы системных / пользовательских типов для параметров на форме ограничений
+      url: /fw_aliases-system-and-user-types.html
+      output: web
+
+    - title: Date limits standart view
+      title_ru: Функции для работы с датами в "стандартном виде"
+      url: /fw_date-limits-standart-view.html
+      output: web
+
+    - title: Date time funtions in limits
+      title_ru: Функции для работы с датой при задании ограничений
+      url: /fw_date-time-funtions-in-limits.html
+      output: web
+
+    - title: Description form limit editor in standard form
+      title_ru: Стандартный вид редактора ограничений. Описание формы
+      url: /fw_description-form-limit-editor-in-standard-form.html
+      output: web
+
+    - title: Filter example
+      title_ru: Пример использования AdvLimit и создания FilterSettings
+      url: /fw_filter-example.html
+      output: web
+
+    - title: Filter settings
+      title_ru: Настройки фильтров. FilterSettings.
+      url: /fw_filter-settings.html
+      output: web
+
+    - title: Filtersand limits
+      title_ru: Фильтры и ограничения
+      url: /fw_filtersand-limits.html
+      output: web
+
+    - title: Limit editor advanced view
+      title_ru: Расширенный вид редактора ограничений
+      url: /fw_limit-editor-advanced-view.html
+      output: web
+
+    - title: Limit editor params
+      title_ru: Ограничение с параметрами (для пользователя) в Win
+      url: /fw_limit-editor-params.html
+      output: web
+
+    - title: Limit editor simple view
+      title_ru: Упрощенный вид редактора ограничений
+      url: /fw_limit-editor-simple-view.html
+      output: web
+
+    - title: Limitation editform
+      title_ru: Форма задания ограничений
+      url: /fw_limitation-editform.html
+      output: web
+
+    - title: Master details filters
+      title_ru: Фильтрация по детейлам мастера. ConnectMasterProp, OwnerConnectProp
+      url: /fw_master-details-filters.html
+      output: web
+
+    - title: Masters in list selection type parameters in advlimit
+      title_ru: Мастера в списке выбора типа параметров в редакторе AdvLimit
+      url: /fw_masters-in-list-selection-type-parameters-in-advlimit.html
+      output: web
+
+    - title: Nalozhenie ogranichenij po stolbcam v spiskah
+      title_ru: Наложение ограничений по столбцам в списках
+      url: /fw_nalozhenie-ogranichenij-po-stolbcam-v-spiskah.html
+      output: web
+
+    - title: Self limit
+      title_ru: Ограничение на себя
+      url: /fw_self-limit.html
+      output: web
+
+    - title: Setting permissions for publication restrictions
+      title_ru: Настройка прав доступа на публикацию ограничений
+      url: /fw_setting-permissions-for-publication-restrictions.html
+      output: web
+
+    - title: Standart view limits editor
+      title_ru: Стандартный вид редактора ограничений. Формат ограничений
+      url: /fw_standart-view-limits-editor.html
+      output: web
+
+    - title: Winforms limit editor form
+      title_ru: Форма «Редактор ограничений» (WIN)
+      url: /fw_winforms-limit-editor-form.html
+      output: web
+
+  - title: Development
+    title_ru: Процесс разработки
+    output: web, pdf
+
+    folderitems:
+
+    - title: Exception handling in winforms applications
+      title_ru: Обработка исключений в winforms-приложениях
+      url: /fw_error-box.html
+      output: web
+
+    - title: Visualstudio design packages
+      title_ru: Настройка отладочных пакетов и выбор активного отладочного пакета
+      url: /fw_visualstudio-design-packages.html
+      output: web
+    
+  - title: Bindings
+    title_ru: Bindings
+    output: web, pdf
+
+    folderitems:
+
+    - title: Control provider winforms
+      title_ru: Провайдер контролов для Flexberry Winforms
+      url: /fw_control-provider-winforms.html
+      output: web
+
+    - title: Editmanager
+      title_ru: EditManager
+      url: /fw_editmanager.html
+      output: web
+ 
+  - title: Rights
+    title_ru: Подсистема полномочий
+    output: web, pdf
+
+    folderitems:
+
+    - title: Application start permission
+      title_ru: Разрешение на запуск приложения и открытие форм
+      url: /fw_start-app-open-forms.html
+      output: web

@@ -1,0 +1,50 @@
+entries:
+- title: Sidebar
+  product: ember-flexberry-gis
+  version: 0.3.0
+
+  folders:
+  - title: Сommon information about ember-flexberry-gis
+    title_ru: Общие сведения о ember-flexberry-gis
+    output: web, pdf
+
+    folderitems:
+    - title: About
+      title_ru: О системе
+      url: /efg_landing_page.html
+      output: web, pdf
+
+  - title: Platform development
+    title_ru: Разработка платформы
+    output: web, pdf
+
+    folderitems:
+    - title: Article
+      title_ru: 
+      url: 
+      output: web, pdf
+
+  - title: Development using components
+    title_ru: Разработка с использованием компонентов
+    output: web, pdf
+
+    folderitems:
+    - title: Article
+      title_ru: 
+      url: 
+      output: web, pdf
+
+  - title: Custom toolkit
+    title_ru: Пользовательский инструментарий
+    output: web, pdf
+
+    folderitems:
+    - title: System Setup
+      title_ru: Настройка системы
+      url: efg_system-setup.html
+      output: web, pdf
+
+    - title: Using the system
+      title_ru: Использование системы
+      url: efg_using-system.html
+      output: web, pdf

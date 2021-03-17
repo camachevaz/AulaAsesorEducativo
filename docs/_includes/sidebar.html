@@ -1,65 +1,55 @@
-<div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
-  <div class="md-sidebar__scrollwrap">
-    <div class="md-sidebar__inner">
-      <nav class="md-nav md-nav--primary" data-md-level="0">
-        <label class="md-nav__title md-nav__title--site" for="__drawer"><span class="md-nav__button md-logo">{% if site.logo %}<img height="48" src="{{ site.baseurl }}/{{ site.logo }}" width="48">{% else %}<i class="md-icon"></i>{% endif %}</span> {{ site.title }}</label>
+{% include custom/sidebarconfigs.html %}
 
-        <ul class="md-nav__list" data-md-scrollfix="">
-          <li class="md-nav__item md-nav__item--active">
-            <input class="md-toggle md-nav__toggle" data-md-toggle="toc" id="__toc" type="checkbox"> 
-                <label class="md-nav__link md-nav__link--active" for="__toc">Inicio</label>
-                  <a class="md-nav__link md-nav__link--active" href="{{ site.baseurl }}/" title="Home">Inicio</a>
-
-            <nav class="md-nav md-nav--secondary">
-              <label class="md-nav__title" for="__toc">Temas</label>
-              <ul class="md-nav__list" data-md-scrollfix="">
-                {% for section in site.data.toc %}
-                <li class="md-nav__item">
-                  <a class="md-nav__link" href="{% if section.external_url %}{{ section.external_url }}{% else %}{{ site.baseurl }}/{{ section.url }}{% endif %}"
-                     id="pancakes-{{ section.title | slugify }}" 
-                     title="{{ section.title }}">{{ section.title }}</a>
-                </li>
-                {% endfor %}
-              </ul>
-            </nav>
-          </li>
-
-          <!-- This navigation is completely for mobile -->
-          {% for section in site.data.toc %}<li class="md-nav__item mobile-nav" style="display:none">
-            <a class="md-nav__link" href="{% if section.external_url %}{{ section.external_url }}{% else %}{{ site.baseurl }}/{{ section.url }}{% endif %}" title="{{ section.title }}">{{ section.title }}</a>
-          </li>{% endfor %}
-
-          <!-- This navigation is completely for non mobile -->
-         {% for section in site.data.toc %}
-         <li class="md-nav__item md-nav__item--nested not-mobile-nav">
-             <a class="md-nav__link pancakes-parent" {% if section.children %}href="#pancakes-{{ section.title | slugify }}"{% else %}href="{% if section.external_url %}{{ section.external_url }}{% else %}{{ site.baseurl }}/{{ section.url }}{% endif %}"{% endif %}
-                id="pancakes-{{ section.title | slugify }}" 
-                title="{{ section.title }}">{{ section.title }}</a>
-                {% if section.children %}<nav class="md-nav">
-                    <ul class="md-nav__list">
-                        {% for child in section.children %}<li class="md-nav__item">
-                        <a href="{% if child.external_url %}{{ child.external_url }}{% else %}{{ site.baseurl }}/{{ child.url }}{% endif %}" 
-                           title="{{ child.title }}" style="display:none"
-                           class="md-nav__link pancakes-child">{{ child.title }}</a>
-                        </li>{% endfor %}
-                    </ul>
-              </nav>{% endif %}
-         </li>{% endfor %}
-
-        </ul>
-      </nav>
-    </div>
-  </div>
+{% if dropdown %}
+<div class="dropdown">
+    <button class="btn btn-default dropdown-toggle btn-block" type="button" id="dropdownVersion" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        {{sidebar[0].version}}
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownVersion">
+        {% for version in dropdown %}
+        <li><a href="{{version.url}}">{{version.title}}</a></li>
+        {% endfor %}
+    </ul>
 </div>
-<div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
-  <div class="md-sidebar__scrollwrap">
-    <div class="md-sidebar__inner">
-      <nav class="md-nav md-nav--secondary">
-        <label class="md-nav__title" for="__toc">Temas</label>
-        <ul id="nav-toc" class="md-nav__list" data-md-scrollfix="">
-        <!-- toc will be appended here!-->
+{% endif %}
+<ul id="mysidebar" class="nav list-unstyled components">
+    <li class="sidebarTitle">{{sidebar[0].product}} {{sidebar[0].version}}</li>
+    {% for entry in sidebar %} {% for folder in entry.folders %} {% if folder.output contains "web" %}
+    <li>
+        <a href="#">{% if page.lang == "ru" and folder.title_ru %} {{ folder.title_ru }} {% else %} {{ folder.title }} {% endif %} </a>
+        <ul>
+            {% for folderitem in folder.folderitems %} {% if folderitem.output contains "web" %} {% if folderitem.external_url %}
+            <li><a href="{{folderitem.external_url}}" target="_blank">{% if page.lang == "ru" and folderitem.title_ru %} {{ folderitem.title_ru }} {% else %} {{folderitem.title}} {% endif %} </a></li>
+            {% elsif page.url contains folderitem.url %}
+            <li class="active"><a href="{{folderitem.url | remove: "/"}}">{% if page.lang == "ru" and folderitem.title_ru %} {{ folderitem.title_ru }} {% else %} {{folderitem.title}} {% endif %} </a></li>
+            {% else %}
+            <li><a href="{{folderitem.url | remove: "/"}}">{% if page.lang == "ru" and folderitem.title_ru %} {{ folderitem.title_ru }} {% else %} {{folderitem.title}} {% endif %} </a></li>
+            {% endif %} {% for subfolders in folderitem.subfolders %} {% if subfolders.output contains "web" %}
+            <li class="subfolders">
+                <a href="#">{{ subfolders.title }}</a>
+                <ul>
+                    {% for subfolderitem in subfolders.subfolderitems %} {% if subfolderitem.output contains "web" %} {% if subfolderitem.external_url %}
+                    <li><a href="{{subfolderitem.external_url}}" target="_blank">{% if page.lang == "ru" and subfolderitem.title_ru %} {{ subfolderitem.title_ru }} {% else %} {{subfolderitem.title}} {% endif %} </a></li>
+                    {% elsif page.url contains subfolderitem.url %}
+                    <li class="active"><a href="{{subfolderitem.url | remove: "/"}}">{% if page.lang == "ru" and subfolderitem.title_ru %} {{ subfolderitem.title_ru }} {% else %} {{subfolderitem.title}} {% endif %} </a></li>
+                    {% else %}
+                    <li><a href="{{subfolderitem.url | remove: "/"}}">{% if page.lang == "ru" and subfolderitem.title_ru %} {{ subfolderitem.title_ru }} {% else %} {{subfolderitem.title}} {% endif %} </a></li>
+                    {% endif %} {% endif %} {% endfor %}
+                </ul>
+            </li>
+            {% endif %} {% endfor %} {% endif %} {% endfor %}
         </ul>
-      </nav>
-    </div>
-  </div>
-</div>
+        {% endif %} {% endfor %} {% endfor %}
+        <!-- if you aren't using the accordion, uncomment this block:
+           <p class="external">
+               <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+           </p>
+           -->
+    </li>
+</ul>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>
+    $("li.active").parents('li').toggleClass("active");
+</script>

@@ -1,0 +1,757 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: Sidebar
+  product: Flexberry ORM
+  version: 5.0.2
+  folders:
+
+  - title: О Flexberry ORM
+    output: web, pdf
+    folderitems:
+    - title: About
+      title_ru: О модуле
+      url: /fo_landing_page.html
+      output: web
+
+  - title: Объектная модель
+    output: web, pdf
+    folderitems:
+    - title: DataObject
+      title_ru: Объекты данных
+      url: /fo_data-object.html
+      output: web
+
+    - title: Status and loading state of the data object
+      title_ru: Статус и состояние загрузки объекта данных
+      url: /fo_object-status.html
+      output: web
+
+    - title: How to load data object properties
+      title_ru: Порядок загрузки свойств объекта данных
+      url: /fo_order-loading-property.html
+      output: web
+
+    - title: Access to the object's own attributes and attributes of related objects
+      title_ru: Доступ к собственным атрибутам объекта и атрибутам связанных объектов
+      url: /fo_own-object-attributes.html
+      output: web
+
+    - title: Data Class Attributes
+      title_ru: Атрибуты классов данных
+      url: /fo_attributes-class-data.html
+      output: web
+
+    - title: Storing object data in a relational database
+      title_ru: Хранение объектных данных в реляционной базе данных
+      url: /fo_storing-data-objects.html
+      output: web
+
+    - title: Designing Data Objects
+      title_ru: Конструирование объектов данных
+      url: /fo_construction-data-objects.html
+      output: web
+
+    - title: Data object as a class attribute
+      title_ru: Атрибут класса типа объекта данных
+      url: /fo_data-object-as-attribute-type.html
+      output: web
+
+    - title: DataObjectCopy
+      title_ru: Копия объекта данных
+      url: /fo_data-object-copy.html
+      output: web
+
+    - title:
+      title_ru: Первичные ключи объектов
+      url: /fo_primary-keys-objects.html
+      output: web
+
+    - title: Structure of data object classes
+      title_ru: Структура классов объектов данных
+      url: /fo_data-object-structure.html
+      output: web
+
+    - title: Children's associations and their properties
+      title_ru: Детейловые ассоциации и их свойства
+      url: /fo_detail-associations-properties.html
+      output: web
+
+    - title: Obtaining metadata for objects
+      title_ru: Получение метаданных объектов
+      url: /fo_methods-class-information.html
+      output: web
+
+    - title: Prototyping
+      title_ru: Прототипизация
+      url: /fo_data-object-prototype.html
+      output:
+
+    - title: Context-sensitive data object cache
+      title_ru: Контекстно-зависимый кэш объектов данных
+      url: /fo_context-sensitive-cache.html
+      output: web
+
+    - title: Converting the data object property type to a storage type
+      title_ru: Преобразование типа свойства объекта данных к типу хранилища
+      url: /fo_convert-type-property.html
+      output: web
+
+    - title: Copying Data Objects
+      title_ru: Копирование объектов данных
+      url: /fo_copying-data-objects.html
+      output: web
+
+    - title: Checking the object field in the set method
+      title_ru: Проверка поля объекта в методе set
+      url: /fo_check-object-set.html
+      output: web
+
+    - title: Getting a Presentation Value for a Data Object
+      title_ru: Получение презентационного значения для объекта данных
+      url: /fo_get-presentation-value.html
+      output: web
+
+    - title: Set the current object when the application starts
+      title_ru: Установка текущего объекта при запуске приложения
+      url: /fo_define-default-object.html
+      output: web
+
+    - title: Setting the value of the field of the object to be created
+      title_ru: Задание значения поля создаваемого объекта
+      url: /fo_define-field-created.html
+      output: web
+
+    - title: DisableInsertPropertyAttribute
+      title_ru: DisableInsertPropertyAttribute
+      url: /fo_disable-insert-property-attribute.html
+      output: web
+
+    - title: Features of setting the default value
+      title_ru: Особенности задания значения по умолчанию
+      url: /fo_features-dafault-value.html
+      output: web
+
+    - title: Functionality when working with arrays of child objects
+      title_ru: Функциональность при работе с массивами детейловых объектов
+      url: /fo_functionality-work-detail-array.html
+      output: web
+
+    - title: Information.GetPropertyStorageName
+      title_ru: Information.GetPropertyStorageName
+      url: /fo_information-get-property-storage-name.html
+      output: web
+
+    - title: Variants of opening an object for Readonly
+      title_ru: Варианты открытия объекта только на чтение
+      url: /fo_read-only-object.html
+      output: web
+
+    - title: Updating related objects
+      title_ru: Обновление связанных объектов
+      url: /fo_update-related-objects.html
+      output: web
+
+    - title: Displaying the form of masters and children on the interface
+      title_ru: Отображение на интерфейсе формы мастеров и детейлов
+      url: /fo_masters-details.html
+      output: web
+
+    - title: Example of loading and changing an object
+      title_ru: Пример загрузки и изменения объекта
+      url: /fo_load-alter-objects.html
+      output: web
+
+    - title: Example of loading an object graph
+      title_ru: Пример загрузки графа объектов
+      url: /fo_load-multiple-details-example.html
+      output: web
+
+    - title: Example of object prototyping
+      title_ru: Пример прототипизации объекта
+      url: /fo_prototyping-example.html
+      output: web
+
+    - title: Example of loading an object graph
+      title_ru: Пример загрузки графа объектов
+      url: /fo_load-multiple-details-example.html
+      output: web
+
+    - title: An example of an action when saving an object
+      title_ru: Пример действий при сохранении объекта
+      url: /fo_actions-saving-object.html
+      output: web
+
+  - title: Сервисы данных
+    output: web, pdf
+    folderitems:
+    - title: Data service
+      title_ru: Сервис данных
+      url: /fo_data-service.html
+      output: web
+    - title: Flexberry ORM Standard Data Services
+      title_ru: Стандартные сервисы данных Flexberry ORM
+      url: /fo_standard-data-services.html
+      output: web
+    - title: SQLDataService
+      title_ru: SQLDataService
+      url: /fo_sql-data-service.html
+      output: web
+    - title: Data service for working with PostgreSQL
+      title_ru: Cервис данных для работы с PostgreSQL
+      url: /fo_postgres-data-service.html
+      output: web
+    - title: MSSQLDataService
+      title_ru: MSSQLDataService
+      url: /fo_mssql-data-service.html
+      output: web
+    - title: Data service for working with Oracle Server
+      title_ru: Cервис данных для работы с Oracle Server
+      url: /fo_oracle-data-service.html
+      output: web
+    - title: Data service for MongoDB
+      title_ru: Cервис данных для работы с MongoDB
+      url: /fo_mongodb-data-service.html
+      output: web
+    - title: Data service for access to the Access DBMS
+      title_ru: Cервис данных для доступа к СУБД Access
+      url: /fo_odbc-access-ds.html
+      output: web
+    - title: ODBCDataService
+      title_ru: ODBCDataService
+      url: /fo_odbc-data-service.html
+      output: web
+    - title: ODBCMySqlDataService
+      title_ru: ODBCMySqlDataService
+      url: /fo_odbc-mysql-data-service.html
+      output: web
+    - title: DRDataService
+      title_ru: DRDataService
+      url: /fo_dr-data-service.html
+      output: web
+    - title: Data service for working with XML
+      title_ru: Cервис данных для работы с XML
+      url: /fo_xml-file-ds.html
+      output: web
+    - title: Implementing an arbitrary data service
+      title_ru: Реализация собственного сервиса данных
+      url: /fo_implement-custom-ds.html
+      output: web
+    - title: Designing a Data Service
+      title_ru: Конструирование сервиса данных
+      url: /fo_construction-ds.html
+      output: web
+    - title: Insensitivity to the register in the data service
+      title_ru: Нечувствительность к регистру в сервисе данных
+      url: /fo_insensitivity-register-ds.html
+      output: web
+    - title: Creating and saving data objects
+      title_ru: Создание и сохранение объектов данных
+      url: /fo_instantiate-persist-objects.html
+      output: web
+    - title: Interception of the formation of SQL-query to the database
+      title_ru: Перехват формирования SQL-запроса к БД
+      url: /fo_intercept-formation-sql-query.html
+      output: web
+    - title: Processing of the status and status of object loading
+      title_ru: Обработка статуса и состояния загрузки объекта
+      url: /fo_processing-status-condition-load.html
+      output: web
+    - title: Setting up read options
+      title_ru: Настройка параметров чтения
+      url: /fo_loading-customization-struct.html
+      output: web
+    - title: Updating objects with empty rows
+      title_ru: Обновление объектов с пустыми строками
+      url: /fo_updating-objects-empty-rows.html
+      output: web
+    - title: Support for multiple data warehouses in a single application
+      title_ru: Поддержка нескольких хранилищ данных в одном приложении
+      url: /fo_multibase.html
+      output: web
+    - title: Processing of one object
+      title_ru: Обработка одного объекта
+      url: /fo_processing-one-object.html
+      output: web
+    - title: Processing of a set of objects
+      title_ru: Обработка множества объектов
+      url: /fo_processing-multiple-objects.html
+      output: web
+    - title: Handling registers in object names
+      title_ru: Обработка регистров в именах объектов
+      url: /fo_processing-registers-names.html
+      output: web
+    - title: Portion reading
+      title_ru: Порционное чтение
+      url: /fo_reading-portion.html
+      output: web
+    - title: Using Postgres as a repository
+      title_ru: Использование СУБД Postgres в качестве хранилища
+      url: /fo_switching-storages.html
+      output: web
+    - title: Tools for Oracle Data Service
+      title_ru: Инструменты для работы Oracle Data Service
+      url: /fo_tools-oracle-ds.html
+      output: web
+    - title: SQL-queries in Flexberry
+      title_ru: SQL-запросы в Flexberry
+      url: /fo_sql-query.html
+      output: web
+    - title: Integration with Business Server
+      title_ru: Интеграция с бизнес-сервером
+      url: /fo_user-operations-dataservice.html
+      output: web
+    - title: Cropping rows with data service
+      title_ru: Обрезка строк сервисом данных
+      url: /fo_trimmed-string-storage.html
+      output: web
+    - title: Support for binary arrays with data service
+      title_ru: Поддержка бинарных массивов сервисом данных
+      url: /fo_binary-array-ds.html
+      output: web
+
+  - title: Типы данных
+    output: web, pdf
+    folderitems:
+    - title: Data types in Flexberry ORM
+      title_ru: Типы данных во Flexberry ORM
+      url: /fo_flexberry-orm-types.html
+      output: web
+    - title: Notstored (computable) properties of the data object
+      title_ru: Нехранимые (вычислимые) свойства объекта данных
+      url: /fo_not-stored-attributes.html
+      output: web
+    - title: Example of non-stored object properties
+      title_ru: Пример нехранимых свойств объектов
+      url: /fo_nonstored-calculated-properties.html
+      output: web
+    - title: The use of not-stored classes
+      title_ru: Применение нехранимых классов
+      url: /fo_using-not-stored-classes.html
+      output: web
+    - title: Using data types in the application structure
+      title_ru: Использование типов данных в структуре приложения
+      url: /fo_type-usage.html
+      output: web
+    - title: The problem of the types used
+      title_ru: Проблема используемых типов
+      url: /fo_type-usage-problem.html
+      output: web
+      output: web
+    - title: Creating a Custom Data Type
+      title_ru: Создание пользовательского типа данных
+      url: /fo_creating-stereotypes-example.html
+      output: web
+    - title: An example of using custom types
+      title_ru: Пример использования собственных типов
+      url: /fo_using-custom-types-example.html
+      output: web
+
+  - title: Язык запросов
+    output: web, pdf
+    folderitems:
+    - title: Comparison functions
+      title_ru: Функции сравнения
+      url: /fo_compare-functions.html
+      output: web
+    - title: ExternalLangDef
+      title_ru: ExternalLangDef
+      url: /fo_external-lang-def.html
+      output: web
+    - title: Restrictions on detail
+      title_ru: Ограничения на детейлы
+      url: /fo_exist-details.html
+      output: web
+    - title: Restrictions on the part of the date
+      title_ru: Ограничения на части даты
+      url: /fo_restriction-datetime.html
+      output: web
+    - title: FuncAND
+      title_ru: FuncAND
+      url: /fo_func-and.html
+      output: web
+    - title: FuncBETWEEN
+      title_ru: FuncBETWEEN
+      url: /fo_func-between.html
+      output: web
+    - title: FuncEQ
+      title_ru: FuncEQ
+      url: /fo_func-eq.html
+      output: web
+    - title: FuncIN
+      title_ru: FuncIN
+      url: /fo_func-in.html
+      output: web
+    - title: FuncIsNull
+      title_ru: FuncIsNull
+      url: /fo_func-is-null.html
+      output: web
+    - title: FuncLike
+      title_ru: FuncLike
+      url: /fo_func-like.html
+      output: web
+    - title: FuncNEQ
+      title_ru: FuncNEQ
+      url: /fo_func-neq.html
+      output: web
+    - title: FuncNOT
+      title_ru: FuncNOT
+      url: /fo_func-not.html
+      output: web
+    - title: FuncOR
+      title_ru: FuncOR
+      url: /fo_func-or.html
+      output: web
+    - title: FuncSQL
+      title_ru: FuncSQL
+      url: /fo_func-sql.html
+      output: web
+    - title: FuncToChar
+      title_ru: FuncToChar
+      url: /fo_func-to-char.html
+      output: web
+    - title: SQLWhereLanguageDef
+      title_ru: SQLWhereLanguageDef
+      url: /fo_function-list.html
+      output: web
+    - title: FunctionBuilder
+      title_ru: FunctionBuilder
+      url: /fo_function-builder.html
+      output: web
+    - title: FunctionBuilder examples
+      title_ru: FunctionBuilder примеры
+      url: /fo_function-builder-examples.html
+      output: web
+    - title: Function of implication
+      title_ru: Функция импликации
+      url: /fo_function-implication.html
+      output: web
+    - title: Convert constraint function to linq-constraint
+      title_ru: Преобразование функции ограничения в linq-ограничение
+      url: /fo_lcs-to-linq.html
+      output: web
+    - title: Restriction on children using aggregator properties
+      title_ru: Ограничение на детейлы с использованием свойств агрегатора
+      url: /fo_limit-details.html
+      output: web
+    - title: Serializing LimitFunction
+      title_ru: Сериализация LimitFunction
+      url: /fo_limit-function-serialization.html
+      output: web
+    - title: Limit Function
+      title_ru: Функции ограничения
+      url: /fo_limit-function.html
+      output: web
+    - title: Filtering and data sampling
+      title_ru: Фильтрация и ограничение выборки данных
+      url: /fo_limitation.html
+      output: web
+    - title: LINQPad
+      title_ru: LINQPad
+      url: /fo_linq-pad.html
+      output: web
+    - title: LINQProvider
+      title_ru: LINQProvider
+      url: /fo_linq-provider.html
+      output: web
+    - title: Features of LinqProvider
+      title_ru: Возможности LinqProvider
+      url: /fo_linq-provider-faetures.html
+      output: web
+    - title: Reading objects with a constraint
+      title_ru: Чтение объектов с наложенным ограничением
+      url: /fo_load-by-limit.html
+      output: web
+    - title: Description of variables when constructing constraint functions
+      title_ru: Описание переменных при построении функций ограничения
+      url: /fo_variable-def.html
+      output: web
+    - title: An example of imposing restrictions on the loading of objects
+      title_ru: Пример наложения ограничений на загрузку объектов
+      url: /fo_load-limitation-example.html
+      output: web
+    - title: Psedodetails in LinqProvider
+      title_ru: Псевдодетейлы в LinqProvider
+      url: /fo_psedodetails-linq-provider.html
+      output: web
+    - title: Creating your own functions when using LanguageDef
+      title_ru: Создание собственных функций при использовании LanguageDef
+      url: /fo_using-languagedef.html
+      output: web
+
+  - title: Представления
+    output: web, pdf
+    folderitems:
+    - title: Operations with views
+      title_ru: Операции с представлениями
+      url: /fo_view-operations.html
+      output: web
+
+    - title: Adaptive representations for details
+      title_ru: Адаптивные представления для детейлов
+      url: /fo_adaptive-views-details.html
+      output: web
+
+    - title: ViewPropertyAppender
+      title_ru: ViewPropertyAppender
+      url: /fo_view-property-appender.html
+      output: web
+
+    - title: Static properties for accessing class representations
+      title_ru: Статические свойства для доступа к представлениям класса
+      url: /fo_static-view-accessors.html
+      output: web
+
+    - title: An example of working with views
+      title_ru: Пример работы с представлениями
+      url: /fo_work-with-views-example.html
+      output: web
+
+    - title: An example of advanced work with views
+      title_ru: Пример продвинутой работы с представлениями
+      url: /fo_advanced-working-with-views.html
+      output: web
+
+  - title: Бизнес-серверы
+    output: web, pdf
+    folderitems:
+    - title: Business servers
+      title_ru: Бизнес-сервер
+      url: /fo_business-server.html
+      output: web
+    - title: Business logic
+      title_ru: Бизнес-логика
+      url: /fo_business-logic.html
+      output: web
+    - title: Order of calls of business servers
+      title_ru: Порядок вызовов бизнес-серверов
+      url: /fo_order-calls-bs.html
+      output: web
+    - title: Checking the validity of changes to object data in the business server
+      title_ru: Проверка валидности изменений данных объекта в бизнес-сервере
+      url: /fo_change-data-check.html
+      output: web
+    - title: Updating multiple objects with a single transaction
+      title_ru: Обновление нескольких объектов одной транзакцией
+      url: /fo_bs-transact.html
+      output: web
+    - title: Checking the uniqueness of the entered data in the business server
+      title_ru: Проверка уникальности введенных данных в бизнес-сервере
+      url: /fo_unique-data-check.html
+      output: web
+    - title: Cascading deletion of objects
+      title_ru: Каскадное удаление объектов
+      url: /fo_cascade-delete.html
+      output: web
+    - title: IReferencesCascadeDelete
+      title_ru: IReferencesCascadeDelete
+      url: /fo_i-references-cascade-delete.html
+      output: web
+    - title: IReferencesNullDelete
+      title_ru: IReferencesNullDelete
+      url: /fo_i-references-null-delete.html
+      output: web
+    - title:  Cancellation of deletion of the used value from the directory
+      title_ru: Отмена удаления используемого значения из справочника
+      url: /fo_delete-cancel.html
+      output: web
+    - title: Example of using a business server
+      title_ru: Пример использования бизнес-сервера
+      url: /fo_bs-example.html
+      output: web
+
+  - title: Модуль для Flexberry Designer
+    output: web, pdf
+    folderitems:
+    - title: Generic methods in Flexberry Designer
+      title_ru: Генерик-методы в Flexberry Designer
+      url: /fo_generic-methods.html
+      output: web
+    - title: Create a class diagram for the database
+      title_ru: Создание диаграммы классов по базе данных
+      url: /fo_reverse-data-base.html
+      output: web
+    - title: Generate documentation on charts
+      title_ru: Генерация документации по диаграммам
+      url: /fo_doc-gen.html
+      output: web
+    - title: Plugin for generating XSD schema
+      title_ru: XMLSchemaGenerator Features
+      url: /fo_xml-schema-generator.html
+      output: web
+    - title: Generating application code using uml models
+      title_ru: Генерации кода приложения по uml-моделям
+      url: /fo_orm-case-plugin.html
+      output: web
+    - title: Functions of creating a backup and history of changes
+      title_ru: Функции создания бэкапа и истории изменений
+      url: /fo_history-plugin.html
+      output: web
+    - title: Search function
+      title_ru: Функция поиска
+      url: /fo_intelli-search-plugin.html
+      output: web
+    - title: Location of assemblies after code generation
+      title_ru: Расположение сборок после генерации кода
+      url: /fo_location-assembly.html
+      output: web
+    - title: Move or copy function
+      title_ru: Функция перемещения или копирования
+      url: /fo_move-case-plugin.html
+      output: web
+    - title: Brackets of the programmer
+      title_ru: Скобки программиста
+      url: /fo_programmer-brackets.html
+      output: web
+
+  - title: OData
+    output: web, pdf
+    folderitems:
+    - title: ODataService
+      title_ru: ODataService
+      url: /fo_orm-odata-service.html
+      output: web
+
+    - title: Configuring ODataService with several types of data services
+      title_ru: Настройка ODataService с несколькими типами сервисов данных
+      url: /fo_multiple-data-services-in-odata.html
+      output: web
+
+    - title: Configuring entity type names in OData metadata
+      title_ru: Настройка имен типов сущностей в метаданных OData
+      url: /fo_metadata-for-client.html
+      output: web
+
+  - title: Монитор SQL-запросов
+    output: web, pdf
+    folderitems:
+    - title: Business task monitor
+      title_ru: Монитор задач
+      url: /fo_business-task-monitor.html
+      output: web
+    - title: Service for writing SQL-scripts for data changes
+      title_ru: Сервис записи SQL-скриптов изменения данных
+      url: /fo_changes-sql-bt-monitor.html
+      output: web
+    - title: Creating and Connecting a Task Monitor
+      title_ru: Создание и подключение монитора задач
+      url: /fo_creating-connection-bt-monitor.html
+      output: web
+
+  - title: Сервис текущего пользователя
+    output: web, pdf
+    folderitems:
+    - title: Current User Service
+      title_ru: Сервис текущего пользователя
+      url: /fo_current-user-service.html
+      output: web
+
+  - title: Dependency Injection
+    output: web, pdf
+    folderitems:
+    - title: Default data service
+      title_ru: Сервис данных по умолчанию
+      url: /fo_ds-provider.html
+      output: web
+    - title: Flexberry UnityFactory
+      title_ru: Flexberry UnityFactory
+      url: /fo_unity-factory.html
+      output: web
+
+  - title: Сервис блокировок
+    output: web, pdf
+    folderitems:
+    - title: Locking service
+      title_ru: Сервис блокировок
+      url: /fo_lock-service.html
+      output: web
+    - title: Data object locking
+      title_ru: Блокирование объекта данных
+      url: /fo_blocking-object-data.html
+      output: web
+
+  - title: Дополнительные возможности
+    output: web, pdf
+    folderitems:
+    - title: Additional loading data object
+      title_ru: Дочитка объекта данных
+      url: /fo_additional-loading.html
+      output: web
+    - title: Serializing and Deserializing Data Objects
+      title_ru: Сериализация и десериализация объектов данных
+      url: /fo_aggregating-function.html
+      output: web
+    - title: Associating pictures with data classes
+      title_ru: Ассоциирование картинок с классами данных
+      url: /fo_class-image.html
+      output: web
+    - title: Code Examples
+      title_ru: Примеры кода
+      url: /fo_code-samples.html
+      output: web
+    - title: Example of custom names for structures in a database
+      title_ru: Пример пользовательских наименований для структур в БД
+      url: /fo_custom-naming-db-structures.html
+      output: web
+    - title: Dynamic Properties
+      title_ru: Динамические свойства объекта
+      url: /fo_dynamic-properties.html
+      output: web
+    - title: Flexberry ORM Libraries
+      title_ru: Библиотеки Flexberry ORM
+      url: /fo_flexberry-orm-libraries.html
+      output: web
+    - title: Custom control as LookUp
+      title_ru: Произвольный контрол в качестве лукапа
+      url: /fo_custom-lookup.html
+      output: web
+    - title: Features of determining the load of properties
+      title_ru: Особенности определения загруженности свойств
+      url: /fo_definition-loaded-properties.html
+      output: web
+    - title: ISpecialEmptyValue
+      title_ru: ISpecialEmptyValue
+      url: /fo_i-special-empty-value.html
+      output: web
+    - title: ICSSoft.STORMNET.Tools.XmlTools
+      title_ru: ICSSoft.STORMNET.Tools.XmlTools
+      url: /fo_ics-soft-stormnet-tools.html
+      output: web
+    - title: Interpreting the Boolean NULL Value
+      title_ru: Интерпретация булевского значения NULL
+      url: /fo_interpretation-boolean-null.html
+      output: web
+    - title: ICSSoft.STORMNET.KeyGen.KeyGuid class
+      title_ru: Класс ICSSoft.STORMNET.KeyGen.KeyGuid
+      url: /fo_key-guid.html
+      output: web
+    - title: Overloading of attributes, associations, methods
+      title_ru: Перегрузка атрибутов, ассоциаций, методов
+      url: /fo_overloading.html
+      output: web
+    - title: Reading objects belonging to different classes in one view
+      title_ru: Чтение принадлежащих различным классам объектов в одном представлении
+      url: /fo_reading-several-types-objects.html
+      output: web
+    - title: Flexberry LogService
+      title_ru: FFlexberry LogService
+      url: /fo_log-service-log4net.html
+      output: web
+    - title: Flexberry LogService Objects
+      title_ru: Flexberry LogService Objects
+      url: /fo_log-service-objects.html
+      output: web
+
+  - title: API references
+    title_ru: Справочники по API
+    output: web, pdf
+    folderitems:
+    - title: Flexberry ORM
+      title_ru: Flexberry ORM
+      url: /fo_flexberry-orm-api.html
+      output: web, pdf
+    - title: Flexberry ORM ODataService
+      title_ru: Flexberry ORM ODataService
+      url: /fo_orm-odata-service-api.html
+      output: web, pdf

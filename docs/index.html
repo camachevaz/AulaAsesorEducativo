@@ -1,26 +1,19 @@
 ---
+title: Flexberry PLATFORM Documentation
+layout: default
 ---
-
-<section class="categories">
-	{% assign categories = site.categories | sort %}
-	{% for category in categories %}
-		{% assign name = category[0] %}
-		{% assign posts = category[1] %}
-		{% assign size = posts | size %}
-		<section class="category">
-				<h3>
-					<a href="{{ site.baseurl }}/category/{{ name | slugify }}/">{{ name | replace: "-", " " }}</a>
-				</h3>
-
-			<ul>
-				{% assign tutorials = posts | sort: "title" %}
-				{% for tutorial in tutorials limit: 4 %}
-					<li><a href="{{ site.baseurl }}{{ tutorial.url }}">{% include document-icon.html icon=tutorial.type %}{{ tutorial.title }}</a></li>
-				{% endfor %}
-				{% if size > 4 %}
-					<li><a href="{{ site.baseurl }}/category/{{ name | slugify }}/">{{ size | minus: 4 }} mas...</a></li>
-				{% endif %}
-			</ul>
-		</section>
-	{% endfor %}
-</section>
+<!-- Navigate to localized page for preferenced language. -->
+<div class="container main-page">
+  <div class="row">
+      <a href="ru" class="btn btn-default" role="button">Русский</a>
+      <a href="en" class="btn btn-default" role="button">English</a>
+  </div>
+</div>
+<script type="text/javascript">
+  var browserLanguage = window.navigator.userLanguage || window.navigator.language;
+  var language = "en";
+  if (browserLanguage.indexOf("ru") > -1) {
+    language = "ru"
+  }
+  window.location.replace("{{ site.baseurl }}/" + language);
+</script>

@@ -1,0 +1,70 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: Sidebar
+  product: Flexberry platform
+  folders:
+
+  - title: Getting Started
+    title_ru: С чего начать
+    output: web, pdf
+
+    folderitems:
+    - title: About platform
+      title_ru: О платформе
+      url: /fp_landing_page.html
+      output: web
+    - title: Architecture
+      title_ru: Архитектура платформы
+      url: /fp_architecture.html
+      output: web
+    - title: Glossary
+      title_ru: Глоссарий
+      url: /fp_glossary.html
+      output: web  
+
+  - title: Platform development
+    title_ru: Разработка платформы
+    output: web, pdf
+
+    folderitems:
+    - title: Documentation writing guidelines
+      title_ru: Рекомендации по написанию документации
+      url: /fp_documentation-writing-guidelines.html
+      output: web, pdf
+
+    - title: Rules for translating articles
+      title_ru: Правила перевода статей
+      url: /fp_translation-article.html
+      output: web, pdf
+
+    - title: Contribution
+      title_ru: Развитие платформы силами сообщества
+      url: /fp_contribution.html
+      output: web, pdf
+
+    - title: Code style
+      title_ru: Стиль оформления кода
+      url: /fp_code-style.html
+      output: web, pdf
+
+    - title: Check list for Code Review
+      title_ru: Чек-лист для Code Review
+      url: /fp_code-review-check-list.html
+      output: web, pdf
+
+    - title: EmberJS code comments
+      title_ru: Комментарии в Ember-проектах
+      url: /fp_ember-comments-style-yuidoc.html
+      output: web, pdf
+
+    - title: Description of recommended tools for developers
+      title_ru: Описание рекомендуемых инструментов для разработчиков
+      url: /fp_tool-description.html
+      output: web, pdf
+
+    - title: Git rules
+      title_ru: Правила работы с git
+      url: /fp_git-rules.html
+      output: web, pdf

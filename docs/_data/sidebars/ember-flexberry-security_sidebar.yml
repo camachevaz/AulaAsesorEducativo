@@ -1,0 +1,61 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: Sidebar
+  product: ember-flexberry-security
+  version: 0.1.0
+  folders:
+
+  - title: Getting Started
+    title_ru: Начало
+    output: web, pdf
+    folderitems:
+    - title: About
+      title_ru: О модуле
+      url: /efs_landing_page.html
+      output: web
+
+  - title: Security
+    title_ru: Полномочия
+    output: web, pdf
+
+    folderitems:
+    - title: Security submodule
+      title_ru: Подсистема полномочий
+      url: /efs_security.html
+      output: web, pdf
+
+    - title: Security forms
+      title_ru: Формы настройки полномочий
+      url: /efs_security_forms.html
+      output: web, pdf
+
+    - title: Security schema
+      title_ru: Модель данных полномочий
+      url: /efs_security_schema.html
+      output: web, pdf
+
+    - title: Security Manager
+      url: /efs_security-manager.html
+      output: web, pdf
+
+  - title: Audit
+    title_ru: Аудит
+    output: web, pdf
+
+    folderitems:
+    - title: Audit submodile
+      title_ru: Подсистема аудита
+      url: /efs_audit.html
+      output: web, pdf
+
+    - title: Audit forms
+      title_ru: Формы аудита
+      url: /efs_audit_forms.html
+      output: web, pdf
+
+    - title: Audit for object
+      title_ru: Просмотр данных аудита по объекту
+      url: /efs_audit_for_object.html
+      output: web, pdf

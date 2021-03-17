@@ -1,0 +1,76 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: Sidebar
+  product: Flexberry Service Bus
+  version: 1.1.0
+  folders:
+
+  - title: About
+    title_ru: О подсистеме
+    output: web, pdf
+    folderitems:
+    - title: Flexberry Service Bus
+      url: /fsb_landing_page.html
+      output: web, pdf
+    - title: Installation and start via Docker
+      title_ru: Установка и запуск шины в Docker
+      url: /fsb_installation.html
+      output: web, pdf
+    - title: Architecture
+      title_ru: Архитектура шины
+      url: /fsb_architecture.html
+      output: web, pdf
+    - title: Features
+      title_ru: Возможности шины
+      url: /fsb_features.html
+      output: web, pdf
+    - title: Thesaurus
+      title_ru: Тезаурус
+      url: /fsb_thesaurus.html
+      output: web, pdf
+  - title: Components
+    title_ru: Компоненты шины
+    output: web, pdf
+    folderitems:
+    - title: Service
+      title_ru: Сервис шины
+      url: /fsb_service.html
+      output: web, pdf
+    - title: Editor
+      title_ru: Административное приложение
+      url: /fsb_editor.html
+      output: web, pdf
+    - title: Database
+      title_ru: База данных
+      url: /fsb_database.html
+      output: web, pdf
+  - title: Adapters
+    title_ru: Адаптеры
+    output: web, pdf
+    folderitems:
+    - title: Разработка адаптеров для приложений
+      title_ru: Разработка адаптеров для приложений
+      url: /fsb_adapters.html
+      output: web, pdf
+    - title: WCF-adapters sample
+      title_ru: Пример WCF-адаптеров
+      url: /fsb_wcf-adapters-sample.html
+      output: web, pdf
+    - title: REST-adapters sample
+      title_ru: Пример REST-адаптеров
+      url: /fsb_rest-adapters-sample.html
+      output: web, pdf
+  - title: Development
+    title_ru: Разработка
+    output: web, pdf
+    folderitems:
+    - title: Development Flexberry Service Bus
+      title_ru: Разработка шины
+      url: /fsb_development.html
+      output: web, pdf
+    - title: Internal architecture Flexberry Service Bus
+      title_ru: Внутреннее устройство шины
+      url: /fsb_internal-architecture.html
+      output: web, pdf

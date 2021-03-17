@@ -1,0 +1,15 @@
+entries:
+- title: Sidebar
+  product: Leaflet.Editable.Measures
+  version: 0.1.0
+
+  folders:
+  - title: Сommon information about Leaflet.Editable.Measures
+    title_ru: Общие сведения о Leaflet.Editable.Measures
+    output: web, pdf
+
+    folderitems:
+    - title: About
+      title_ru: О системе
+      url: /lem_leaflet-editable-measures.html
+      output: web, pdf
